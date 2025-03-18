@@ -1,4 +1,4 @@
-FROM debian:12.9-slim
+FROM debian:12.10-slim
 
 ENV DNSMASQ_CONFIG_DIR="/etc/dnsmasq.d" \
     DNSMASQ_LOCAL_DOMAIN=local \
